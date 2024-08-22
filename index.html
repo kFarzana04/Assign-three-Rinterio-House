@@ -5,13 +5,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio Housing</title>
 
+    <!--Font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
     <!--Daisy UI cdn-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
     <!--Tailwind css cdn-->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+
+    <style>
+        .font-manrope: "Manrope", sans-serif;
+    </style>
 </head>
-<body>
+<body class="font-manrop">
+    <header class="container md:mx-auto">
+        <nav class="my-6 mx-2">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div 
+                            tabindex="0" role="button" class="btn      btn-ghost lg:hidden">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <ul class="menu menu-horizontal px-1">
+                                    <li><a href=""></a>Home</li>
+                                    <li><a href=""></a>Service</li>
+                                    <li><a href=""></a>Portfolio</li>
+                                    <li><a href=""></a>Blogs</li>
+                                    <li><a href=""></a>Contact Us</li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl"><i class="fa-solid fa-arrow-right -rotate-45"></i>Rinterio</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-7">
+                    <li class=""><a href=""></a>Home</li>
+                    <li><a class="px-7 m-" href=""></a>Service</li>
+                    <li><a href=""></a>Portfolio</li>
+                    <li><a href=""></a>Blogs</li>
+                    <li><a href=""></a>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <ul>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <a class="btn bg-[#abef5f] rounded-3xl">Book Consult<i class="fa-solid fa-arrow-right p-3 rounded-full bg-black text-white -rotate-45"></i></a>
+                    </ul>
+                </div>
+            </div>      
+        </nav>
+        <!--Banner-->
+        <div class="my-7 mx-2">
+            <div class="w-2/4 mx-auto">
+                <img src="./assets/banner.png" alt="">
+            </div>
+            <div class="text-center">
+                <h1 class="text-3xl md:text-4xl lg:text-6xl text-[#212121] font-bold my-6">A barn house of this design has a <br>
+                    striking appearance
+                </h1>
+                <p class="text-[#494949] text-lg mt-7 mb-12">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, <br> sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+                <a class="btn bg-[#CDF69D] rounded-3xl text-xl font-bold w-[210px] h-[56px] border border-[#abef5f] hover:bg-[#abcf5f] hover:text-white">View  Details<i class="fa-solid fa-arrow-right rounded-full p-2 ml-3 bg-[#abef5f] text-black -rotate-45"></i></a>
+            </div>
+        </div>
+    </header>
+    <!--Thoughtful Design-->
+    <main>
+        <section class="bg-[#f4f4f4] my-7-1">
+            <div class="grid grid-rows-1 mx-3 md:flex gap-5 my-24 container md:mx-auto">
+                <!--Left Side-->
+                <div class="">
+                    <img src="./assets/Vector.png" alt="">
+                    <button class="btn-sm font-semibold bg-white rounded-2xl"><i class="fa-solid fa-arrow-right mr-2"></i>About Us</button>
+                    <div class="">
+                        <h2 class="text-5xl text-[#212121] font-bold my-5">
+                            We design thoughtful, liveable spaces.
+                        </h2>
+                        <p class="text-base text-[#494949]">
+                            The exterior often retains the classic barn look with large, rectangular <br> shapes, high pitched roofs, and expansive open spaces
+                        </p>
+                        <div class="">
+                            <div>
+                                <img src="./assets/commercial.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Commercial</h4>
+                                <p>
+                                    Traditional barn houses are typically constructed from wood, metal, or a combination of both. 
+                                </p>
+                            </div>
+                            <div>
+                                <img src="./assets/residential.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Residential</h4>
+                                <p>
+                                    Traditional barn houses are typically constructed from wood, metal, or a combination of both. 
+                                </p>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+                <div>
+                
+                </div>
+                <!--Right Side-->
+                <div>
+                    <img src="./assets/Rectangle.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
     
 </body>
 </html>
