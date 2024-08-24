@@ -24,9 +24,10 @@
     </style>
 </head>
 <body class="font-manrop">
-    <header class="container md:mx-auto">
-        <nav class="my-6 mx-2">
-            <div class="navbar bg-base-100">
+    <header class=" bg-zinc-200">
+        <div class="container mx-auto">
+            <nav>
+            <div class="navbar">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div 
@@ -45,34 +46,34 @@
                             </svg>
                         </div>
                         <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <ul class="menu menu-horizontal px-1">
-                                    <li><a href=""></a>Home</li>
-                                    <li><a href=""></a>Service</li>
-                                    <li><a href=""></a>Portfolio</li>
-                                    <li><a href=""></a>Blogs</li>
-                                    <li><a href=""></a>Contact Us</li>
+                        <ul class="menu lg:menu-horizontal px-7">
+                                    <li><a  href=""></a>Home</li>
+                                    <li><a  href=""></a>Service</li>
+                                    <li><a  href=""></a>Portfolio</li>
+                                    <li><a  href=""></a>Blogs</li>
+                                    <li><a  href=""></a>Contact Us</li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl"><i class="fa-solid fa-arrow-right -rotate-45"></i>Rinterio</a>
+                    <a class="text-xl"><i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-3 mr-4 bg-[#ABEF5F]"></i>Rinterio</a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-7">
-                    <li class=""><a href=""></a>Home</li>
-                    <li><a class="px-7 m-" href=""></a>Service</li>
-                    <li><a href=""></a>Portfolio</li>
-                    <li><a href=""></a>Blogs</li>
-                    <li><a href=""></a>Contact Us</li>
-                    </ul>
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
                 </div>
-                <div class="navbar-end">
-                    <ul>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <a class="btn bg-[#abef5f] rounded-3xl">Book Consult<i class="fa-solid fa-arrow-right p-3 rounded-full bg-black text-white -rotate-45"></i></a>
+                <div class="navbar-end ml-0">
+                    <ul class="flex">
+                        <i class="fa-solid fa-magnifying-glass mr-2 bg-white rounded-full p-4"></i>
+                        <i class="fa-solid fa-cart-shopping mr-2 bg-white rounded-full p-4"></i>
+                        <a class="btn bg-[#abef5f] rounded-3xl font-bold text-lg ">Book Consult<i class="fa-solid fa-arrow-right p-3 rounded-full bg-black text-white -rotate-45"></i></a>
                     </ul>
                 </div>
             </div>      
-        </nav>
+            </nav>
         <!--Banner-->
         <div class="my-7 mx-2">
             <div class="w-2/4 mx-auto">
@@ -85,8 +86,9 @@
                 <p class="text-[#494949] text-lg mt-7 mb-12">
                     The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, <br> sleek metal accents, and large windows that flood the space with natural light.
                 </p>
-                <a class="btn bg-[#CDF69D] rounded-3xl text-xl font-bold w-[210px] h-[56px] border border-[#abef5f] hover:bg-[#abcf5f] hover:text-white">View  Details<i class="fa-solid fa-arrow-right rounded-full p-2 ml-3 bg-[#abef5f] text-black -rotate-45"></i></a>
+                <a class="btn mb-12 bg-[#CDF69D] rounded-3xl text-xl font-bold w-[210px] h-[56px] border border-[#abef5f] hover:bg-[#abcf5f] hover:text-white">View  Details<i class="fa-solid fa-arrow-right rounded-full p-2 ml-3 bg-[#abef5f] text-black -rotate-45"></i></a>
             </div>
+        </div>        
         </div>
     </header>
     <!--Thoughtful Design-->
@@ -99,8 +101,10 @@
                     <div class="border border-dashed border-stone-300 w-[65px] h-[40px]">
                         <img  src="./assets/Vector.png" alt="">
                     </div>
-                    <div class="text-center lg:text-start">                        
-                        <button class="btn-sm bg-white rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949]"><i class="fa-solid fa-arrow-right"></i> About us</button>
+                    <div class="text-center lg:text-start">
+                        <button 
+                            class="btn-sm bg-white rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949]"><i class="fa-solid fa-arrow-right"></i> About us
+                        </button>
                     </div>
                    <div>
                         <h2 class="text-2xl text-center lg:text-start lg:text-5xl text-[#212121] font-bold mb-3">
@@ -151,7 +155,8 @@
                         Barn houses are built by planning and designing the structure, <br> preparing the site, constructing the frame and roof, installing <br> electrical, plumbing, and interiors, and then finalizing with <br> inspections and finishing touches before moving in.
                     </p>                    
                 </div>
-                <div class="parents container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-2 px-3">
+                <div 
+                    class="parents container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-2 p-3 lg:p-0">
                     <div 
                         class="card bg-[#E7C1D3] text-[#1C1C1C] h-60">
                         <div class="card-body">
@@ -193,13 +198,172 @@
                         </div>
                     </div>
                 </div> 
-
             </div>      
         </section>
+        <!--Portfolio Section -->
+        <section>
+            <div class="container mx-auto">
+                <!--Explore Works-->
+                <div>
+                    <div>
+                        <div class="text-center"> 
+                            <button class="btn-sm bg-[#CDF69D] rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949] font-bold"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works </button>
+                        </div>
+                        <h3 
+                            class="text-2xl text-center lg:text-4xl font-bold mb-4">
+                            Our Latest Portfolio
+                        </h3>
+                        <p 
+                            class="text-sm lg:text-base  text-center mb-8">
+                            A modern barn house portfolio showcases designs blending <br>rustic charm  with contemporary features, including open floor <br> plans, exposed beams, and eco-friendly materials. <br> These portfolios often highlight various projects.
+                        </p>                    
+                    </div>
+                </div>
+                <div class="grid lg:grid-cols-3 gap-3">
+                    <div 
+                        class="border border[#E9E9E9]  lg:col-span-2 lg:flex justify-center items-center ">
+                        <img class="w-full p-3" src="./assets/img1.png" alt="">
 
+                        <div class="px-4">
+                        <h4 
+                            class="text-2xl text-center font-bold mb-5">
+                            Commercial
+                        </h4>
+                        <p class="text-sm lg:text-base mb-1">
+                            A commercial barn house is a structure that combines the rustic aesthetic of a traditional barn with the functionality needed for commercial use.
+                        </p>
+                        <button class=" px-3 pb-1 text-base text-[#494949] font-bold hover:text-[#ABEF5F]">  
+                            View Details <i class="fa-solid fa-arrow-right hover:bg-stone-400 rounded-full p-2 bg-[#ABEF5F] -rotate-45">
+                            </i>
+                        </button>
+                        </div>    
+                    </div>
+                    <div 
+                        class="border border-[#E9E9E9]">
+                        <img class="p-3 h-full w-full" src="./assets/img2.png" alt="">
+                    </div>
+                </div>
+                <!--second line -->
+                <div 
+                    class="grid grid-cols-1 gap-3 lg:grid-cols-4 col-span-3 mt-8">
+                    <div 
+                        class="border border-[#E9E9E9]">
+                        <img class="p-3 w-[230px] lg:h-[179px] w-full h-full" src="./assets/img3.png" alt="">
+                    </div>
+                    <div 
+                        class="border border-[#E9E9E9] lg:col-span-2 lg:flex  p-2 lg:p-0 mr-1">
+                        <img class="p-3 lg:w-[260px] lg:h-[179px] w-full" src="./assets/img4.png" alt="">
+                        <div>
+                        <h4 
+                            class="text-2xl text-center font-bold mt-1">
+                            Commercial
+                        </h4>
+                        <p 
+                            class="text-sm lg:text-base">
+                            A commercial barn house is a structure that combines the rustic aesthetic of a traditional barn with the functionality.
+                        </p>
+                        <button class=" px-3 pb-1 text-base text-[#494949] font-bold hover:text-[#ABEF5F]">  
+                            View Details <i class="fa-solid fa-arrow-right hover:bg-stone-400 rounded-full p-2 bg-[#ABEF5F] -rotate-45">
+                            </i>
+                        </button>
+                        </div>
+                    </div>
+                    <div 
+                        class="border border-[#E9E9E9]">
+                        <img class="p-3 lg:h-[179px] w-full" src="./assets/img5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Discuss Project-->
+        <section class="mt-14 mx-3">
+            <div class="container mx-auto">
+                <div class="">
+                <div class="text-center"> 
+                    <button 
+                        class="btn-sm bg-[#ABEF5F20] rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949] font-bold"><i class="fa-solid fa-arrow-right"></i>Rinterio News
+                    </button>
+                </div>
+                <h3 
+                    class="text-2xl text-center lg:text-4xl font-bold mb-4">Let’s Discuss Next Project
+                </h3>
+                    <p 
+                        class="text-sm lg:text-base  text-center mb-8">
+                        Barn houses are built by planning and designing the structure, <br> preparing the site, constructing the frame and roof, installing <br> electrical, plumbing, and interiors, and then finalizing with <br> inspections and finishing touches before moving in.
+                    </p>
+                </div> 
+            </div>
+            <div>
+                <form action="#">
+                    <div class="mt-5 grid grid-cols-1 gap-x-3 gap-y-4 sm:grid-cols-6">
+                        <div class="sm:col-span-3">
+                          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" placeholder="first name" autocomplete="given-name" class="block w-full px-2 border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 rounded-2xl placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                            </div>
+                        </div>
+                        <div class="sm:col-span-3">
+                            <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <!--****-->
+                            <div class="mt-2">
+                                <input type="text" name="last-name" id="last-name" placeholder="last name"      autocomplete="family-name" class="block w-full border-0 px-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset rounded-2xl ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="mt-5 grid grid-cols-1 gap-x-3 gap-y-4 sm:grid-cols-6">
+                        <div class="sm:col-span-3">
+                          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" placeholder="phone number" autocomplete="given-name" class="block w-full rounded-2xl border-0 px-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                            </div>
+                        </div>
+                        <div class="sm:col-span-3">
+                            <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
+                            <div class="mt-2">
+                                <input type="text" name="last-name" id="last-name"  placeholder="Email Address "      autocomplete="family-name" class="block w-full px-2 border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 rounded-2xl placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                            </div>
+                        </div>
+                    </div>                       
+                      <div class="col-span-full mt-3">
+                        <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Write your message here</label>
+                        <div class="mt-2">
+                          <textarea id="about" name="about" rows="3" class="block w-full border-0 py-1.5 rounded-2xl text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                        </div>
+                      </div>
+                      <button 
+                        class="btn bg-[#ABEF5F] mt-3 w-full rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949] font-bold">Send Email<i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>                  
+            </div>         
+        </section>
     </main>
 
-    <footer></footer>
+    <footer class="bg-black my-4">
+        <div class="container mx-auto">
+            <div class="text-center"> 
+                <button class="text-4xl px-3 pb-1 mt-16  text-white font-bold"><i class="fa-solid bg-[CDF69D] fa-arrow-right"></i>Rinterio</button>
+                <br>
+                <p class="text-[#737373] px-4 my-12">
+                    Barn houses are built by planning and    designing the structure,
+                    preparing the site, constructing the frame and roof, installing
+                    electrical, plumbing, and interiors, and then finalizing with
+                    inspections and finishing touches before moving in</p>
+            </div>
+            <div class="">
+                <ul class="menu menu-horizontal flex items-center justify-between text-[#737373] mb-12">
+                    <li><a>Home</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="text-center"> 
+                <a class="btn bg-[#abef5f] rounded-3xl font-bold text-lg mb-24">Book Consult<i class="fa-solid fa-arrow-right p-3 rounded-full bg-black text-white -rotate-45"></i></a>
+            </div>
+        </div>
+    </footer>
 
     
 </body>
