@@ -21,6 +21,9 @@
 
     <style>
         .font-manrope: "Manrope", sans-serif;
+        .bg-img{
+            background-image: url('./assets/bg.jpg');
+        }
     </style>
 </head>
 <body class="font-manrop">
@@ -31,7 +34,7 @@
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div 
-                            tabindex="0" role="button" class="btn      btn-ghost lg:hidden">
+                            tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 class="h-5 w-5"
@@ -45,16 +48,16 @@
                                     d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </div>
-                        <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <ul tabindex="0" class="menu menu-sm dropdown-content bg-[#ABEF5F66] rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <ul class="menu lg:menu-horizontal px-7">
-                                    <li><a  href=""></a>Home</li>
-                                    <li><a  href=""></a>Service</li>
-                                    <li><a  href=""></a>Portfolio</li>
-                                    <li><a  href=""></a>Blogs</li>
-                                    <li><a  href=""></a>Contact Us</li>
+                                    <li><a href=""></a>Home</li>
+                                    <li><a href=""></a>Service</li>
+                                    <li><a href=""></a>Portfolio</li>
+                                    <li><a href=""></a>Blogs</li>
+                                    <li><a href=""></a>Contact Us</li>
                         </ul>
                     </div>
-                    <a class="text-xl"><i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-3 mr-4 bg-[#ABEF5F]"></i>Rinterio</a>
+                    <a class="text-xl"><i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-3 text-black mr-4 bg-[#ABEF5F]"></i>Rinterio</a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
@@ -99,7 +102,7 @@
                 <!--Left Side-->
                 <div class="m-3 lg:m-0">
                     <div class="border border-dashed border-stone-300 w-[65px] h-[40px]">
-                        <img  src="./assets/Vector.png" alt="">
+                        <img src="./assets/Vector.png" alt="">
                     </div>
                     <div class="text-center lg:text-start">
                         <button 
@@ -275,13 +278,105 @@
                 </div>
             </div>
         </section>
+        <!--My own section-->
+        <section class="bg-[#f4f4f4] my-12 py-12">
+            <div class="container mx-auto">
+                <div class="">
+                    <!--Text content-->
+                    <div class="text-center pt-12"> 
+                        <button class="btn-sm bg-[#CDF69D] rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949] font-bold"><i class="fa-solid fa-arrow-right mr-1"></i>Asked Questions </button>
+                    </div>
+                    <h3 
+                        class="text-2xl text-center lg:text-4xl font-bold mb-4">
+                        Frequently Asked Questions
+                    </h3>
+                    <p 
+                        class="text-sm lg:text-base  text-center mb-8">
+                        A barn house, often known as a "barndominium," is a style of home that combines traditional barn elements <br>with modern residential living spaces. Here are some frequently asked questions about barn houses.
+                    </p>
+                </div>
+                <!--Frequently asked Question-->
+                <div>
+                    <div class="flex">
+                        <!--Left Side-->
+                        <div class="join join-vertical w-1/2 space-y-3 justify-start">
+                            <div class="collapse collapse-arrow join-item border-base-300 border bg-white shadow-lg">
+                              <input type="radio" name="my-accordion-4" checked="checked" />
+                              <div class="collapse-title text-xl font-medium">1. What is a barn house?</div>
+                              <div class="collapse-content">
+                                <p>A barn house is a residential or commercial structure that combines the design elements of a traditional barn with modern living or functional spaces. It often features an open floor plan, exposed beams, and rustic materials like wood and metal.</p>
+                              </div>
+                            </div>
+                            <div class="collapse collapse-arrow join-item border-base-300 border bg-white shadow-lg">
+                              <input type="radio" name="my-accordion-4" />
+                              <div class="collapse-title text-xl font-medium">2. How much does it cost to build a barn house?</div>
+                              <div class="collapse-content">
+                                <p>The cost varies widely based in size, materials, location and custom feature. on Average, a basic barn house might cost between $100 to $200 per square foot, but high-end custom designs can exceed $300 per square foot.
+                                </p>
+                              </div>
+                            </div>
+                            <div class="collapse collapse-arrow join-item border-base-300 border bg-white shadow-lg">
+                              <input type="radio" name="my-accordion-4" />
+                              <div class="collapse-title text-xl font-medium">3. Are barn houses energy-efficient?</div>
+                              <div class="collapse-content">
+                                <p>Yes, barn houses can be energy-efficient if built with proper insulation, energy-efficient windows, and sustainable building materials. Many designs incorporate eco-friendly practices to reduce energy consumption</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!--Right Side-->
+                        <div class=" justify-end w-1/2">
+                        <!--Image Content-->
+                            <img src="./assets/qustion1.jpg" alt="">
+                        </div>
+                    </div>
+                    <!--2nd Content-->
+                    <div class="flex">
+                         <!--Left Side-->
+                         <div class=" justify-start w-1/2">
+                            <!--Image Content-->
+                                <img src="./assets/qustion2.jpg" alt="">
+                            </div>
+                        <!--Right Side-->
+                        <div class="join join-vertical w-1/2 space-y-3 justify-start">
+                            <div class="collapse collapse-arrow join-item border-base-300 border bg-white shadow-lg">
+                              <input type="radio" name="my-accordion-4" checked="checked" />
+                              <div class="collapse-title text-xl font-medium">4. Can a barn house be used for commercial purpose?</div>
+                              <div class="collapse-content">
+                                <p>Absolutely, Barn house are often used for commercial purposes such as event venue, restaurants, retail spaces, and even offices, thanks to thair spacious interiors and unique charm.</p>
+                              </div>
+                            </div>
+                            <div class="collapse collapse-arrow join-item border-base-300 border bg-white shadow-lg">
+                              <input type="radio" name="my-accordion-4" />
+                              <div class="collapse-title text-xl font-medium">5. What are the pros and cons of living in a barn house?</div>
+                              <div class="collapse-content">
+                                <p>Pros: Unique design, open
+                                    floor plans, high ceilings, and potential for energy efficiency. 
+                                    Cons: Potentially higher construction costs, maintenance of exposed wood or metal, and sometimes limited privacy in open spaces
+                                </p>
+                              </div>
+                            </div>
+                            <div class="collapse collapse-arrow join-item border-base-300 border bg-white shadow-lg">
+                              <input type="radio" name="my-accordion-4" />
+                              <div class="collapse-title text-xl font-medium">6. Can I customize the design of barn house?</div>
+                              <div class="collapse-content">
+                                <p>
+                                    Yes, barn houses are highly customizable. You can choose everything from the layout and materials to interior finishes and special features like lofts or wrap-around porches.             
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
         <!--Discuss Project-->
-        <section class="mt-14 mx-3">
+        <section class="my-12">
             <div class="container mx-auto">
                 <div class="">
                 <div class="text-center"> 
                     <button 
-                        class="btn-sm bg-[#ABEF5F20] rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949] font-bold"><i class="fa-solid fa-arrow-right"></i>Rinterio News
+                        class="btn-sm bg-[#ABEF5F20] rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949] font-bold"><i class="fa-solid fa-arrow-right mr-1"></i>Rinterio News
                     </button>
                 </div>
                 <h3 
@@ -293,7 +388,7 @@
                     </p>
                 </div> 
             </div>
-            <div>
+            <div class="container mx-auto">
                 <form action="#">
                     <div class="mt-5 grid grid-cols-1 gap-x-3 gap-y-4 sm:grid-cols-6">
                         <div class="sm:col-span-3">
@@ -331,7 +426,7 @@
                         </div>
                       </div>
                       <button 
-                        class="btn bg-[#ABEF5F] mt-3 w-full rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949] font-bold">Send Email<i class="fa-solid fa-arrow-right"></i>
+                        class="btn bg-[#ABEF5F] mt-3 w-full rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949] font-bold">Send Email<i class="fa-solid fa-arrow-right -rotate-45 text-white p-3 bg-black rounded-full"></i>
                     </button>
                 </form>
             </div>                  
@@ -342,7 +437,7 @@
     <footer class="bg-black my-4">
         <div class="container mx-auto">
             <div class="text-center"> 
-                <button class="text-4xl px-3 pb-1 mt-16  text-white font-bold"><i class="fa-solid bg-[CDF69D] fa-arrow-right"></i>Rinterio</button>
+                <button class="text-3xl px-3 pb-1 mt-16  text-white font-bold"><i class="fa-solid fa-arrow-right p-1 mr-2 rounded-full bg-[#ABEF5F] text-black -rotate-45"></i>Rinterio</button>
                 <br>
                 <p class="text-[#737373] px-4 my-12">
                     Barn houses are built by planning and    designing the structure,
@@ -350,13 +445,14 @@
                     electrical, plumbing, and interiors, and then finalizing with
                     inspections and finishing touches before moving in</p>
             </div>
+            <!--Menu-->
             <div class="">
-                <ul class="menu menu-horizontal flex items-center justify-between text-[#737373] mb-12">
-                    <li><a>Home</a></li>
-                    <li><a>Service</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact Us</a></li>
+                <ul class="menu lg:menu-horizontal lg:flex items-center justify-between text-[#737373] mb-12">
+                    <li><a class="hover:text-white">Home</a></li>
+                    <li><a class="hover:text-white">Service</a></li>
+                    <li><a class="hover:text-white">Portfolio</a></li>
+                    <li><a class="hover:text-white">Blogs</a></li>
+                    <li><a class="hover:text-white">Contact Us</a></li>
                 </ul>
             </div>
             <div class="text-center"> 
