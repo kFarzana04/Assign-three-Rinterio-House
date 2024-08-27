@@ -25,12 +25,13 @@
             background-image: url('./assets/bg.jpg');
         }
     </style>
+    
 </head>
 <body class="font-manrop">
     <header class=" bg-zinc-200">
         <div class="container md:mx-auto lg:mx-auto">
             <nav>
-            <div class="navbar">
+            <div class="navbar pt-5">
                 <div class="navbar-start w-2/5">
                     <div class="dropdown">
                         <div 
@@ -49,19 +50,20 @@
                             </svg>
                         </div>
                         <ul tabindex="0" class="menu menu-sm dropdown-content bg-[#ABEF5F66] rounded-box z-[1] mt-3 lg:w-50 p-2 shadow">
-                        <ul class="menu lg:menu-horizontal lg:px-7">
-                                    <li><a href=""></a>Home</li>
-                                    <li><a href=""></a>Service</li>
-                                    <li><a href=""></a>Portfolio</li>
-                                    <li><a href=""></a>Blogs</li>
-                                    <li><a href=""></a>Contact Us</li>
+                            <ul class="menu lg:menu-horizontal lg:px-7">
+                                <li><a class="text-bold">Home</a></li>
+                                <li><a>Service</a></li>
+                                <li><a>Portfolio</a></li>
+                                <li><a>Blogs</a></li>
+                                <li><a>Contact Us</a></li>
+                            </ul>
                         </ul>
                     </div>
                     <a class="lg:text-2xl lg:font-bold"><i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-3 text-black mr-2 lg:mr-4 bg-[#ABEF5F]"></i>Rinterio</a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
+                    <li><a class="font-semibold">Home</a></li>
                     <li><a>Service</a></li>
                     <li><a>Portfolio</a></li>
                     <li><a>Blogs</a></li>
@@ -72,7 +74,7 @@
                     <ul class="flex">
                         <i class="fa-solid fa-magnifying-glass lg:mr-1 bg-white rounded-full mr-1 p-4"></i>
                         <i class="fa-solid fa-cart-shopping mr-1 bg-white rounded-full p-4"></i>
-                        <a class="btn bg-[#abef5f] rounded-3xl lg:font-bold lg:text-lg ">Book Consult<i class="fa-solid fa-arrow-right p-3 rounded-full bg-black text-white -rotate-45"></i></a>
+                        <a class="btn bg-[#abef5f] rounded-3xl border border-[#abef5f] lg:font-bold lg:text-lg ">Book Consult<i class="fa-solid fa-arrow-right p-3 rounded-full bg-black text-white -rotate-45"></i></a>
                     </ul>
                 </div>
             </div>      
@@ -94,8 +96,9 @@
         </div>        
         </div>
     </header>
-    <!--Thoughtful Design-->
+    
     <main>
+        <!-- Start About Us Section-->
         <section class="bg-[#f4f4f4] my-24  pb-8">
             <div 
                 class="container md:mx-auto lg:mx-auto grid grid-cols-1 gap-2 lg:grid-cols-2 pt-7">
@@ -203,7 +206,8 @@
                 </div> 
             </div>      
         </section>
-        <!--Portfolio Section -->
+        <!-- Ends-About Us Section-->
+        <!-- Portfolio Section -->
         <section>
             <div class="container md:mx-auto lg:mx-auto">
                 <!--Explore Works-->
@@ -243,7 +247,7 @@
                     </div>
                     <div 
                         class="border border-[#E9E9E9]">
-                        <img class="p-3 h-full w-full" src="./assets/img2.png" alt="">
+                        <img class="p-5 h-full w-full" src="./assets/img2.png" alt="">
                     </div>
                 </div>
                 <!--second line -->
@@ -278,7 +282,7 @@
                 </div>
             </div>
         </section>
-        <!--Unique section-->
+        <!--Asked Question section-->
         <section class="bg-[#f4f4f4] my-4 py-12">
             <div class="container md:mx-auto lg:mx-auto">
                 <div class="">
@@ -330,9 +334,9 @@
                         </div>
                     </div>
                     <!--2nd Content-->
-                    <div class="lg:flex mx-3">
+                    <div class="lg:flex">
                          <!--Left Side-->
-                         <div class=" justify-start lg:w-1/2">
+                         <div class=" justify-start mx-3 lg:mx-0 lg:w-1/2">
                             <!--Image Content-->
                                 <img src="./assets/qustion2.jpg" alt="">
                             </div>
@@ -371,41 +375,40 @@
             </div>
         </section>
         <!--Discuss Project-->
-        <section class=" bg-[url('../assets/bg.jpg')] bg-no-repeat bg-cover py-24">
-            <div class="container md:mx-auto lg:mx-auto">
-                <div class="">
-                <div class="text-center"> 
+        <section class="bg-[url('../assets/bg.jpg')] bg-cover bg-center h-screen pb-4">
+            <div class="container md:mx-auto lg:mx-auto">   
+                <div class="text-center mt-4"> 
                     <button 
-                        class="btn-sm bg-[#ABEF5F20] rounded-2xl px-3 pb-1 text-base mb-3 text-[#494949] font-bold"><i class="fa-solid fa-arrow-right mr-1"></i>Rinterio News
+                        class="btn-sm bg-[#ABEF5F40] rounded-2xl px-3 pb-1 m-6 text-base text-[#494949] font-bold"><i class="fa-solid fa-arrow-right mr-1"></i>Rinterio News
                     </button>
                 </div>
                 <h3 
                     class="text-2xl text-center lg:text-4xl font-bold mb-4">Let’s Discuss Next Project
                 </h3>
                     <p 
-                        class="text-sm lg:text-base  text-center mb-8">
-                        Barn houses are built by planning and designing the structure, <br> preparing the site, constructing the frame and roof, installing <br> electrical, plumbing, and interiors, and then finalizing with <br> inspections and finishing touches before moving in.
+                        class="text-sm lg:text-base  text-center mb-4">
+                        Barn houses are built by planning and designing the structure, <br> preparing the site, constructing the frame and roof, installing <br> electrical, plumbing, and interiors, and then finalizing.
                     </p>
                 </div> 
             </div>
             <div class="container lg:mx-auto">
                 <form action="#">
-                    <div class="mt-5 grid grid-cols-1 gap-x-3 gap-y-4 sm:grid-cols-6">
+                    <div class="mt-5 grid grid-cols-1 gap-x-3  sm:grid-cols-6">
                         <div class="sm:col-span-3">
                           <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
-                            <div class="mt-2">
+                            <div class="">
                                 <input type="text" name="first-name" id="first-name" placeholder="first name" autocomplete="given-name" class="block w-full px-2 border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 rounded-2xl placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                             </div>
                         </div>
                         <div class="sm:col-span-3">
                             <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
                             <!--****-->
-                            <div class="mt-2">
+                            <div class=" mt-2 lg:mt-0">
                                 <input type="text" name="last-name" id="last-name" placeholder="last name"      autocomplete="family-name" class="block w-full border-0 px-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset rounded-2xl ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                             </div>
                         </div>
                     </div> 
-                    <div class="mt-5 grid grid-cols-1 gap-x-3 gap-y-4 sm:grid-cols-6">
+                    <div class="mt-2 grid grid-cols-1 gap-x-3 sm:grid-cols-6">
                         <div class="sm:col-span-3">
                           <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900"></label>
                             <div class="mt-2">
@@ -419,10 +422,10 @@
                             </div>
                         </div>
                     </div>                       
-                      <div class="col-span-full mt-3">
-                        <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Write your message here</label>
+                      <div class="col-span-full mt-3 ">
+                        <label for="about" class="block text-sm font-medium leading-6 text-gray-900"></label>
                         <div class="mt-2">
-                          <textarea id="about" name="about" rows="3" class="block w-full border-0 py-1.5 rounded-2xl text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                          <textarea id="about" name="about" rows="3" placeholder="Write your message here" class="block w-full px-1 border-0 py-1.5 rounded-2xl text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
                         </div>
                       </div>
                       <button 
@@ -434,7 +437,7 @@
         </section>
     </main>
 
-    <footer class="bg-black my-4">
+    <footer class="bg-black my-12">
         <div class="container m-3 md:mx-auto lg:mx-auto">
             <div class="text-center"> 
                 <button class="text-3xl px-3 pb-1 mt-16  text-white font-bold"><i class="fa-solid fa-arrow-right p-1 mr-2 rounded-full bg-[#ABEF5F] text-black -rotate-45"></i>Rinterio</button>
@@ -443,11 +446,11 @@
                     Barn houses are built by planning and    designing the structure,
                     preparing the site, constructing the frame and roof, installing
                     electrical, plumbing, and interiors, and then finalizing with
-                    inspections and finishing touches before moving in</p>
+                    inspections and finishing touches before moving.</p>
             </div>
             <!--Menu-->
             <div>
-                <ul class="menu lg:menu-horizontal lg:flex items-center justify-between text-[#737373] mb-12">
+                <ul class="menu lg:menu-horizontal lg:flex items-center justify-between text-[#737373] mb-10">
                     <li><a class="hover:text-white">Home</a></li>
                     <li><a class="hover:text-white">Service</a></li>
                     <li><a class="hover:text-white">Portfolio</a></li>
